@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   font-family: 'Libre Baskerville', serif;
   font-size: 100%;
+  color: #222;
+  line-height: 1.5em;
 }
 
 *, *::before, *::after {
@@ -10,18 +12,51 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  max-width: 47em;
-  text-align: center;
 }
 
 article {
+  margin: 0 15em;
+}
 
+p {
+  padding: 0.75em;
 }
 
 header {
   display: block;
   background-color: #259f95;
   color: #fff;
+  padding: 0.5em;
+  border-radius: 0 0 6px 6px;
+  border: 0.5px solid #1e7c74;
+}
+
+.chapter-num {
+  display: block;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.colon {
+  display: none;
+}
+
+header + p::first-line {
+  color: #259f95;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  display: block;
+  background-color: #259f95;
+  color: #fff;
   padding: 1.5em;
+  border-radius: 6px 6px 0 0;
+  border: 0.5px solid #1e7c74;
+  text-align: center;
+  margin: 0;
 }
