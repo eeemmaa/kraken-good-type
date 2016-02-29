@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 100%;
   color: #222;
   line-height: 1.5em;
@@ -47,7 +47,10 @@ header + p::first-line {
 }
 
 img {
+  display: block;
   width: 100%;
+  border: 0.5px solid #259f95;
+  border-radius: 6px;
 }
 
 footer {
